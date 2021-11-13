@@ -1,0 +1,720 @@
+@echo off
+:login
+cls
+chcp 65001 >NUL
+color 3
+title YOPgettor Public v3.0 Made with ♥ by Samu#5111 // Main Menu
+FOR /F %%A in ('ECHO prompt $E^| cmd') DO SET "ESC=%%A"
+ECHO %ESC%[34m                                                 d8P     d8P                   
+ping 127.0.0.1 -n 1 -w 900 >nul
+ECHO %ESC%[34m                                              d888888Pd888888P                 
+ping 127.0.0.1 -n 1 -w 900 >nul
+ECHO %ESC%[34m ?88   d8P  d8888b ?88,.d88b, d888b8b   d8888b  ?88'    ?88'   d8888b   88bd88b
+ping 127.0.0.1 -n 1 -w 900 >nul
+ECHO %ESC%[34m d88   88  d8P' ?88`?88'  ?88d8P' ?88  d8b_,dP  88P     88P   d8P' ?88  88P'  `
+ping 127.0.0.1 -n 1 -w 900 >nul
+ECHO %ESC%[34m ?8(  d88  88b  d88  88b  d8P88b  ,88b 88b      88b     88b   88b  d88 d88     
+ping 127.0.0.1 -n 1 -w 900 >nul
+ECHO %ESC%[34m `?88P'?8b `?8888P'  888888P'`?88P'`88b`?888P'  `?8b    `?8b  `?8888P'd88'     
+ping 127.0.0.1 -n 1 -w 900 >nul
+ECHO %ESC%[34m        )88          88P'           )88                                        
+ping 127.0.0.1 -n 1 -w 900 >nul
+ECHO %ESC%[34m       ,d8P         d88            ,88P                                        
+ping 127.0.0.1 -n 1 -w 900 >nul
+ECHO %ESC%[34m    `?888P'         ?8P        `?8888P                                                         
+ping 127.0.0.1 -n 1 -w 900 >nul
+ECHO %ESC%[31m Made with ♥ by Samu#5111
+ping 127.0.0.1 -n 1 -w 900 >nul
+ECHO %ESC%[31m _______________________________________________________________________________
+ping 127.0.0.1 -n 1 -w 900 >nul
+ECHO %ESC%[31m → sellix.io/astralcheats
+ECHO %ESC%[31m → dsc.gg/astralcheats
+ECHO %ESC%[31m → t.me/samuleaks
+ECHO %ESC%[31m _______________________________________________________________________________
+ECHO %ESC%[31m Press any Key to continue...
+pause >Nul
+goto pro
+
+:pro
+cls
+title YOPgettor Public v3.0 Made with ♥ by Samu#5111 // Free Menu
+ECHO %ESC%[34m                                                 d8P     d8P                   
+ECHO %ESC%[34m                                              d888888Pd888888P                 
+ECHO %ESC%[34m ?88   d8P  d8888b ?88,.d88b, d888b8b   d8888b  ?88'    ?88'   d8888b   88bd88b
+ECHO %ESC%[34m d88   88  d8P' ?88`?88'  ?88d8P' ?88  d8b_,dP  88P     88P   d8P' ?88  88P'  `
+ECHO %ESC%[34m ?8(  d88  88b  d88  88b  d8P88b  ,88b 88b      88b     88b   88b  d88 d88     
+ECHO %ESC%[34m `?88P'?8b `?8888P'  888888P'`?88P'`88b`?888P'  `?8b    `?8b  `?8888P'd88'     
+ECHO %ESC%[34m        )88          88P'           )88                                        
+ECHO %ESC%[34m       ,d8P         d88            ,88P                                        
+ECHO %ESC%[34m    `?888P'         ?8P        `?8888P                                                        
+ECHO %ESC%[31m Made with ♥ by Samu#5111
+ECHO %ESC%[31m _______________________________________________________________________________ 
+ECHO %ESC%[31m [1] Get YOPmails
+ping 127.0.0.1 -n 1 -w 500 >nul
+ECHO %ESC%[31m [2] Combo Editor
+ping 127.0.0.1 -n 1 -w 500 >nul
+ECHO %ESC%[31m [3] Get YOPmails with Database
+ping 127.0.0.1 -n 1 -w 500 >nul
+ECHO %ESC%[31m [4] Info and Updates
+ping 127.0.0.1 -n 1 -w 500 >nul
+ECHO %ESC%[31m [TUTORIAL] Full Tutorial
+set /p promenu=" >"
+
+if %promenu% == 1 goto maker
+if %promenu% == 2 goto comboeditor
+if %promenu% == 3 goto database
+if %promenu% == 4 goto other
+if %promenu% == tutorial goto tutorial
+if %promenu% == Tutorial goto tutorial
+if %promenu% == TUTORIAL goto tutorial
+
+:error3
+cls
+goto pro
+
+:maker
+echo %number%
+cls
+color 1
+setlocal enableextensions enabledelayedexpansion
+set /P _length=Mail max. length (5-15 recommended): %==%
+cls
+set /P domain="Yopmail Domain (Yopmail.com/Yopmail.fr/Yopmail.net):
+cls
+set /P pass="Yopmail Password > "
+cls
+set /P path="Results File Name > "
+cls
+title YOPgettor Public v3.0 Made with ♥ by Samu#5111 // Getting Yopmails // Default Mode
+ECHO %ESC%[34m                                                 d8P     d8P                   
+ECHO %ESC%[34m                                              d888888Pd888888P                 
+ECHO %ESC%[34m ?88   d8P  d8888b ?88,.d88b, d888b8b   d8888b  ?88'    ?88'   d8888b   88bd88b
+ECHO %ESC%[34m d88   88  d8P' ?88`?88'  ?88d8P' ?88  d8b_,dP  88P     88P   d8P' ?88  88P'  `
+ECHO %ESC%[34m ?8(  d88  88b  d88  88b  d8P88b  ,88b 88b      88b     88b   88b  d88 d88     
+ECHO %ESC%[34m `?88P'?8b `?8888P'  888888P'`?88P'`88b`?888P'  `?8b    `?8b  `?8888P'd88'     
+ECHO %ESC%[34m        )88          88P'           )88                                        
+ECHO %ESC%[34m       ,d8P         d88            ,88P                                        
+ECHO %ESC%[34m    `?888P'         ?8P        `?8888P                                                        
+ECHO %ESC%[31m Made with ♥ by Samu#5111
+ECHO %ESC%[31m ________________________________________________________________________________________
+ECHO %ESC%[31m Mode: Default
+ECHO %ESC%[31m Databse: -
+ECHO %ESC%[31m Password: %pass%
+ECHO %ESC%[31m Result File Name: %path%
+:loop
+set /a z = %_length%
+set "string=abcdefghijklmnopqrstuvwxyz0123456789-_"
+set "user="
+for /L %%i in (1,1,!z!) do call :_genRand
+echo %user%@%domain%:%pass% >> %path%.txt
+goto loop
+
+:_genRand
+set /a x=%random% %% 62
+set user=%user%!string:~%x%,1!
+goto :eof
+
+
+:comboeditor
+cls
+title YOPgettor Public v3.0 Made with ♥ by Samu#5111 // Combo Editor
+ECHO %ESC%[34m                                                 d8P     d8P                   
+ECHO %ESC%[34m                                              d888888Pd888888P                 
+ECHO %ESC%[34m ?88   d8P  d8888b ?88,.d88b, d888b8b   d8888b  ?88'    ?88'   d8888b   88bd88b
+ECHO %ESC%[34m d88   88  d8P' ?88`?88'  ?88d8P' ?88  d8b_,dP  88P     88P   d8P' ?88  88P'  `
+ECHO %ESC%[34m ?8(  d88  88b  d88  88b  d8P88b  ,88b 88b      88b     88b   88b  d88 d88     
+ECHO %ESC%[34m `?88P'?8b `?8888P'  888888P'`?88P'`88b`?888P'  `?8b    `?8b  `?8888P'd88'     
+ECHO %ESC%[34m        )88          88P'           )88                                        
+ECHO %ESC%[34m       ,d8P         d88            ,88P                                        
+ECHO %ESC%[34m    `?888P'         ?8P        `?8888P                                                        
+ECHO %ESC%[31m Made with ♥ by Samu#5111
+ECHO %ESC%[31m ________________________________________________________________________________________
+ECHO %ESC%[31m This Combo Editor removes duplicates from your combo
+ECHO %ESC%[31m and sort them alphabetical.
+ECHO %ESC%[31m Please drag and drop your combo file in the same folder
+ECHO %ESC%[31m and drop the name of it below (without .txt)
+set /p name=">"
+sort /c /unique "%name%.txt" /o "output.txt"
+cls 
+goto pro
+
+:other
+cls
+color 2
+title YOPgettor Public v3.0 Made with ♥ by Samu#5111 // About
+ECHO %ESC%[34m                                                 d8P     d8P                   
+ECHO %ESC%[34m                                              d888888Pd888888P                 
+ECHO %ESC%[34m ?88   d8P  d8888b ?88,.d88b, d888b8b   d8888b  ?88'    ?88'   d8888b   88bd88b
+ECHO %ESC%[34m d88   88  d8P' ?88`?88'  ?88d8P' ?88  d8b_,dP  88P     88P   d8P' ?88  88P'  `
+ECHO %ESC%[34m ?8(  d88  88b  d88  88b  d8P88b  ,88b 88b      88b     88b   88b  d88 d88     
+ECHO %ESC%[34m `?88P'?8b `?8888P'  888888P'`?88P'`88b`?888P'  `?8b    `?8b  `?8888P'd88'     
+ECHO %ESC%[34m        )88          88P'           )88                                        
+ECHO %ESC%[34m       ,d8P         d88            ,88P                                        
+ECHO %ESC%[34m    `?888P'         ?8P        `?8888P                                                        
+ECHO %ESC%[31m Made with ♥ by Samu#5111
+ECHO %ESC%[31m ________________________________________________________________________________________
+ECHO %ESC%[31m Developer: Samu777
+ECHO %ESC%[31m Discord: Samu#5111 // dsc.gg/astralcheats
+ECHO %ESC%[31m Version: 3.0
+ECHO %ESC%[31m ________________________________________________________________________________________
+pause >Nul
+goto pro
+
+
+
+
+
+:database
+setlocal enableextensions enabledelayedexpansion
+cls
+title YOPgettor Public v3.0 Made with ♥ by Samu#5111 // Database Mode Menu
+ECHO %ESC%[34m                                                 d8P     d8P                   
+ECHO %ESC%[34m                                              d888888Pd888888P                 
+ECHO %ESC%[34m ?88   d8P  d8888b ?88,.d88b, d888b8b   d8888b  ?88'    ?88'   d8888b   88bd88b
+ECHO %ESC%[34m d88   88  d8P' ?88`?88'  ?88d8P' ?88  d8b_,dP  88P     88P   d8P' ?88  88P'  `
+ECHO %ESC%[34m ?8(  d88  88b  d88  88b  d8P88b  ,88b 88b      88b     88b   88b  d88 d88     
+ECHO %ESC%[34m `?88P'?8b `?8888P'  888888P'`?88P'`88b`?888P'  `?8b    `?8b  `?8888P'd88'     
+ECHO %ESC%[34m        )88          88P'           )88                                        
+ECHO %ESC%[34m       ,d8P         d88            ,88P                                        
+ECHO %ESC%[34m    `?888P'         ?8P        `?8888P                                                        
+ECHO %ESC%[31m Made with ♥ by Samu#5111
+ECHO %ESC%[31m ________________________________________________________________________________________
+ECHO %ESC%[31m Here you can generate Yopmails with a Database of Name/Verbs which may give you better 
+ECHO %ESC%[31m Hits then usual.
+ECHO %ESC%[31m ________________________________________________________________________________________
+ECHO %ESC%[31m [1] Normal Mode (Add Letters and Numbers to Database Words)
+ping 127.0.0.1 -n 1 -w 500 >nul
+ECHO %ESC%[31m [2] Number Mode (Add Numbers only to Database Words)
+ping 127.0.0.1 -n 1 -w 500 >nul
+ECHO %ESC%[31m [3] Combinate Databases (Combinate 2 Databases) 
+set /p mode=" >"
+
+if %mode% == 1 goto normal
+if %mode% == 2 goto number
+if %mode% == 3 goto combinate
+
+
+
+:normal
+cls
+title YOPgettor Public v3.0 Made with ♥ by Samu#5111 // Database Mode Menu
+ECHO %ESC%[34m                                                 d8P     d8P                   
+ECHO %ESC%[34m                                              d888888Pd888888P                 
+ECHO %ESC%[34m ?88   d8P  d8888b ?88,.d88b, d888b8b   d8888b  ?88'    ?88'   d8888b   88bd88b
+ECHO %ESC%[34m d88   88  d8P' ?88`?88'  ?88d8P' ?88  d8b_,dP  88P     88P   d8P' ?88  88P'  `
+ECHO %ESC%[34m ?8(  d88  88b  d88  88b  d8P88b  ,88b 88b      88b     88b   88b  d88 d88     
+ECHO %ESC%[34m `?88P'?8b `?8888P'  888888P'`?88P'`88b`?888P'  `?8b    `?8b  `?8888P'd88'     
+ECHO %ESC%[34m        )88          88P'           )88                                        
+ECHO %ESC%[34m       ,d8P         d88            ,88P                                        
+ECHO %ESC%[34m    `?888P'         ?8P        `?8888P                                                        
+ECHO %ESC%[31m Made with ♥ by Samu#5111
+ECHO %ESC%[31m ________________________________________________________________________________________
+ECHO %ESC%[31m [1] Letters and Numbers in front of Database Word
+ping 127.0.0.1 -n 1 -w 500 >nul
+ECHO %ESC%[31m [2] Letters and Numbers behind Database Word
+set /p databaseall=" >"
+
+if %databaseall% == 1 goto frontall
+if %databaseall% == 2 goto behindall
+
+
+:behindall
+color 2
+cls
+set /P _length=Adds max. length (4-10 recommended): %==%
+cls
+set /P domai="Yopmail Domain (Yopmail.com/Yopmail.fr/Yopmail.net):
+cls
+set /P datanom="Database Name (e.g database) > "
+cls
+set /P datalong="Database Length > "
+cls
+set /P pass="Yopmail Password > "
+cls
+set /P path="Results File Name > "
+cls
+:loopbehindall
+cls
+title YOPgettor Public v3.0 Made with ♥ by Samu#5111 // Normal Database Mode 2
+ECHO %ESC%[34m                                                 d8P     d8P                   
+ECHO %ESC%[34m                                              d888888Pd888888P                 
+ECHO %ESC%[34m ?88   d8P  d8888b ?88,.d88b, d888b8b   d8888b  ?88'    ?88'   d8888b   88bd88b
+ECHO %ESC%[34m d88   88  d8P' ?88`?88'  ?88d8P' ?88  d8b_,dP  88P     88P   d8P' ?88  88P'  `
+ECHO %ESC%[34m ?8(  d88  88b  d88  88b  d8P88b  ,88b 88b      88b     88b   88b  d88 d88     
+ECHO %ESC%[34m `?88P'?8b `?8888P'  888888P'`?88P'`88b`?888P'  `?8b    `?8b  `?8888P'd88'     
+ECHO %ESC%[34m        )88          88P'           )88                                        
+ECHO %ESC%[34m       ,d8P         d88            ,88P                                        
+ECHO %ESC%[34m    `?888P'         ?8P        `?8888P                                                        
+ECHO %ESC%[31m Made with ♥ by Samu#5111
+ECHO %ESC%[31m ________________________________________________________________________________________
+ECHO %ESC%[31m Mode: Normal Database Mode 2
+ECHO %ESC%[31m Databse: %datanom%
+ECHO %ESC%[31m Password: %pass%
+ECHO %ESC%[31m Result File Name: %path%
+set linecount=%datalong%
+set /a randnum=%random% %% %linecount%+1
+set tempnum=1
+For /f "delims=" %%L in ('type %datanom%.txt') do (
+    if !tempnum! equ %randnum% (
+        set name=%%L
+        goto next
+        )
+    set /a tempnum+=1
+    )
+:next
+set /a z = %_length%
+set "string=abcdefghijklmnopqrstuvwxyz0123456789_-"
+set "user="
+for /L %%i in (1,1,!z!) do call :_genRand
+echo %name%%user%@%domai%:%pass% >> %path%.txt
+goto loopbehindall
+
+:_genRand
+set /a x=%random% %% 62
+set user=%user%!string:~%x%,1!
+goto :eof
+
+:frontall
+color 2
+cls
+set /P _length=Adds max. length (4-10 recommended): %==%
+cls
+set /P domi="Yopmail Domain (Yopmail.com/Yopmail.fr/Yopmail.net):
+cls
+set /P datanom="Database Name (e.g database) > "
+cls
+set /P datalong="Database Length > "
+cls
+set /P pass="Yopmail Password > "
+cls
+set /P path="Results File Name > "
+cls
+:loopfrontall
+cls
+title YOPgettor Public v3.0 Made with ♥ by Samu#5111 // Normal Database Mode 1
+ECHO %ESC%[34m                                                 d8P     d8P                   
+ECHO %ESC%[34m                                              d888888Pd888888P                 
+ECHO %ESC%[34m ?88   d8P  d8888b ?88,.d88b, d888b8b   d8888b  ?88'    ?88'   d8888b   88bd88b
+ECHO %ESC%[34m d88   88  d8P' ?88`?88'  ?88d8P' ?88  d8b_,dP  88P     88P   d8P' ?88  88P'  `
+ECHO %ESC%[34m ?8(  d88  88b  d88  88b  d8P88b  ,88b 88b      88b     88b   88b  d88 d88     
+ECHO %ESC%[34m `?88P'?8b `?8888P'  888888P'`?88P'`88b`?888P'  `?8b    `?8b  `?8888P'd88'     
+ECHO %ESC%[34m        )88          88P'           )88                                        
+ECHO %ESC%[34m       ,d8P         d88            ,88P                                        
+ECHO %ESC%[34m    `?888P'         ?8P        `?8888P                                                        
+ECHO %ESC%[31m Made with ♥ by Samu#5111
+ECHO %ESC%[31m ________________________________________________________________________________________
+ECHO %ESC%[31m Mode: Normal Database Mode 1
+ECHO %ESC%[31m Databse: %datanom%
+ECHO %ESC%[31m Password: %pass%
+ECHO %ESC%[31m Result File Name: %path%
+set linecount=%datalong%
+set /a randnum=%random% %% %linecount%+1
+set tempnum=1
+For /f "delims=" %%L in ('type %datanom%.txt') do (
+    if !tempnum! equ %randnum% (
+        set name=%%L
+        goto next
+        )
+    set /a tempnum+=1
+    )
+:next
+set /a z = %_length%
+set "string=abcdefghijklmnopqrstuvwxyz0123456789_-"
+set "user="
+for /L %%i in (1,1,!z!) do call :_genRand
+echo %user%%name%@%domi%:%pass% >> %path%.txt
+goto loopfrontall
+
+:_genRand
+set /a x=%random% %% 62
+set user=%user%!string:~%x%,1!
+goto :eof
+
+
+
+
+
+
+:number
+cls
+title YOPgettor Public v3.0 Made with ♥ by Samu#5111 // Number Database Mode Menu
+ECHO %ESC%[34m                                                 d8P     d8P                   
+ECHO %ESC%[34m                                              d888888Pd888888P                 
+ECHO %ESC%[34m ?88   d8P  d8888b ?88,.d88b, d888b8b   d8888b  ?88'    ?88'   d8888b   88bd88b
+ECHO %ESC%[34m d88   88  d8P' ?88`?88'  ?88d8P' ?88  d8b_,dP  88P     88P   d8P' ?88  88P'  `
+ECHO %ESC%[34m ?8(  d88  88b  d88  88b  d8P88b  ,88b 88b      88b     88b   88b  d88 d88     
+ECHO %ESC%[34m `?88P'?8b `?8888P'  888888P'`?88P'`88b`?888P'  `?8b    `?8b  `?8888P'd88'     
+ECHO %ESC%[34m        )88          88P'           )88                                        
+ECHO %ESC%[34m       ,d8P         d88            ,88P                                        
+ECHO %ESC%[34m    `?888P'         ?8P        `?8888P                                                        
+ECHO %ESC%[31m Made with ♥ by Samu#5111
+ECHO %ESC%[31m ________________________________________________________________________________________
+ECHO %ESC%[31m [1] Numbers in front of Database Word
+ping 127.0.0.1 -n 1 -w 500 >nul
+ECHO %ESC%[31m [2] Numbers behind Database Word
+set /p databasenumber=" >"
+
+if %databasenumber% == 1 goto frontnumber
+if %databasenumber% == 2 goto behindnumber
+
+:behindnumber
+color 2
+cls
+set /P _length=Adds max. length (4-10 recommended): %==%
+cls
+set /P doma="Yopmail Domain (Yopmail.com/Yopmail.fr/Yopmail.net):
+cls
+set /P datanom="Database Name (e.g database) > "
+cls
+set /P datalong="Database Length > "
+cls
+set /P pass="Yopmail Password > "
+cls
+set /P path="Results File Name > "
+cls
+:loopbehindnum
+cls
+title YOPgettor Public v3.0 Made with ♥ by Samu#5111 // Number Database Mode 2
+ECHO %ESC%[34m                                                 d8P     d8P                   
+ECHO %ESC%[34m                                              d888888Pd888888P                 
+ECHO %ESC%[34m ?88   d8P  d8888b ?88,.d88b, d888b8b   d8888b  ?88'    ?88'   d8888b   88bd88b
+ECHO %ESC%[34m d88   88  d8P' ?88`?88'  ?88d8P' ?88  d8b_,dP  88P     88P   d8P' ?88  88P'  `
+ECHO %ESC%[34m ?8(  d88  88b  d88  88b  d8P88b  ,88b 88b      88b     88b   88b  d88 d88     
+ECHO %ESC%[34m `?88P'?8b `?8888P'  888888P'`?88P'`88b`?888P'  `?8b    `?8b  `?8888P'd88'     
+ECHO %ESC%[34m        )88          88P'           )88                                        
+ECHO %ESC%[34m       ,d8P         d88            ,88P                                        
+ECHO %ESC%[34m    `?888P'         ?8P        `?8888P                                                        
+ECHO %ESC%[31m Made with ♥ by Samu#5111
+ECHO %ESC%[31m ________________________________________________________________________________________
+ECHO %ESC%[31m Mode: Number Database Mode 2
+ECHO %ESC%[31m Databse: %datanom%
+ECHO %ESC%[31m Password: %pass%
+ECHO %ESC%[31m Result File Name: %path%
+set linecount=%datalong%
+set /a randnum=%random% %% %linecount%+1
+set tempnum=1
+For /f "delims=" %%L in ('type %datanom%.txt') do (
+    if !tempnum! equ %randnum% (
+        set name=%%L
+        goto nxt
+        )
+    set /a tempnum+=1
+    )
+:nxt
+set /a z = %_length%
+set "string="0123456789_-"
+set "user="
+for /L %%i in (1,1,!z!) do call :_genRand
+echo %name%%user%@%doma%:%pass% >> %path%.txt
+cls
+goto loopbehindnum
+
+:_genRand
+set /a x=%random% %% 62
+set user=%user%!string:~%x%,1!
+goto :eof
+
+
+
+:frontnumber
+color 2
+cls
+set /P _length=Adds max. length (4-10 recommended): %==%
+cls
+set /P dom="Yopmail Domain (Yopmail.com/Yopmail.fr/Yopmail.net):
+cls
+set /P datanom="Database Name (e.g database) > "
+cls
+set /P datalong="Database Length > "
+cls
+set /P pass="Yopmail Password > "
+cls
+set /P path="Results File Name > "
+cls
+:loopbeforenum
+cls
+title YOPgettor Public v3.0 Made with ♥ by Samu#5111 // Number Database Mode 1
+ECHO %ESC%[34m                                                 d8P     d8P                   
+ECHO %ESC%[34m                                              d888888Pd888888P                 
+ECHO %ESC%[34m ?88   d8P  d8888b ?88,.d88b, d888b8b   d8888b  ?88'    ?88'   d8888b   88bd88b
+ECHO %ESC%[34m d88   88  d8P' ?88`?88'  ?88d8P' ?88  d8b_,dP  88P     88P   d8P' ?88  88P'  `
+ECHO %ESC%[34m ?8(  d88  88b  d88  88b  d8P88b  ,88b 88b      88b     88b   88b  d88 d88     
+ECHO %ESC%[34m `?88P'?8b `?8888P'  888888P'`?88P'`88b`?888P'  `?8b    `?8b  `?8888P'd88'     
+ECHO %ESC%[34m        )88          88P'           )88                                        
+ECHO %ESC%[34m       ,d8P         d88            ,88P                                        
+ECHO %ESC%[34m    `?888P'         ?8P        `?8888P                                                        
+ECHO %ESC%[31m Made with ♥ by Samu#5111
+ECHO %ESC%[31m ________________________________________________________________________________________
+ECHO %ESC%[31m Mode: Database Mode 1
+ECHO %ESC%[31m Databse: %datanom%
+ECHO %ESC%[31m Password: %pass%
+ECHO %ESC%[31m Result File Name: %path%
+set linecount=%datalong%
+set /a randnum=%random% %% %linecount%+1
+set tempnum=1
+For /f "delims=" %%L in ('type %datanom%.txt') do (
+    if !tempnum! equ %randnum% (
+        set nam=%%L
+        goto nxt
+        )
+    set /a tempnum+=1
+    )
+:nxt
+set /a z = %_length%
+set "string="0123456789_-"
+set "use="
+for /L %%i in (1,1,!z!) do call :_genRand
+echo %use%%nam%@%dom%:%pass% >> %path%.txt
+cls
+goto loopbeforenum
+
+:_genRand
+set /a x=%random% %% 62
+set use=%use%!string:~%x%,1!
+goto :eof
+
+
+
+
+:combinate
+color 2
+cls
+set /P _length=Adds max. length (0-4 recommended): %==%
+cls
+set /P dom="Yopmail Domain (Yopmail.com/Yopmail.fr/Yopmail.net):
+cls
+set /P datanom="First Database Name (e.g database1) > "
+cls
+set /P datalong="First Database Length > "
+cls
+set /P datanom2="Combination Database Name (e.g database2) > "
+cls
+set /P datalong2="Combination Database Length > "
+cls
+set /P pass="Yopmail Password > "
+cls
+set /P path="Results File Name > "
+cls
+:adv
+set /P yn="Advanced Settings? (y/n) > "
+if %yn% == y goto advanced
+if %yn% == n goto loopbeforenum11
+
+:err010
+cls
+goto adv
+
+:advanced
+cls
+set /P seperator="Seperator between the database words? (./_/-) (Leave Blank if not) > "
+cls
+set /P rushmode="Rush Mode (Numberless only) (Beta) (y/n) > "
+cls
+goto loopbeforenum11
+
+:loopbeforenum11
+cls
+title YOPgettor Public v3.0 Made with ♥ by Samu#5111 // Database Combinator
+ECHO %ESC%[34m                                                 d8P     d8P                   
+ECHO %ESC%[34m                                              d888888Pd888888P                 
+ECHO %ESC%[34m ?88   d8P  d8888b ?88,.d88b, d888b8b   d8888b  ?88'    ?88'   d8888b   88bd88b
+ECHO %ESC%[34m d88   88  d8P' ?88`?88'  ?88d8P' ?88  d8b_,dP  88P     88P   d8P' ?88  88P'  `
+ECHO %ESC%[34m ?8(  d88  88b  d88  88b  d8P88b  ,88b 88b      88b     88b   88b  d88 d88     
+ECHO %ESC%[34m `?88P'?8b `?8888P'  888888P'`?88P'`88b`?888P'  `?8b    `?8b  `?8888P'd88'     
+ECHO %ESC%[34m        )88          88P'           )88                                        
+ECHO %ESC%[34m       ,d8P         d88            ,88P                                        
+ECHO %ESC%[34m    `?888P'         ?8P        `?8888P                                                        
+ECHO %ESC%[31m Made with ♥ by Samu#5111
+ECHO %ESC%[31m ________________________________________________________________________________________
+ECHO %ESC%[31m Mode: Database Combinator
+ECHO %ESC%[31m Databse: %datanom%
+ECHO %ESC%[31m Password: %pass%
+ECHO %ESC%[31m Result File Name: %path%
+set linecount=%datalong%
+set /a randnum=%random% %% %linecount%+1
+set tempnum=1
+For /f "delims=" %%L in ('type %datanom%.txt') do (
+    if !tempnum! equ %randnum% (
+        set nam=%%L
+        goto nxt11
+        )
+    set /a tempnum+=1
+    )
+:nxt11
+set linecount=%datalong2%
+set /a randnum=%random% %% %linecount%+1
+set tempnum=1
+For /f "delims=" %%L in ('type %datanom2%.txt') do (
+    if !tempnum! equ %randnum% (
+        set nam2=%%L
+        goto nxt
+        )
+    set /a tempnum+=1
+    )
+:nxt
+set /a z = %_length%
+set "string="0123456789_-"
+set "use="
+for /L %%i in (1,1,!z!) do call :_genRand
+echo %nam%%seperator%%nam2%%use%@%dom%:%pass% >> %path%.txt
+echo %nam2%%seperator%%nam%@%dom%:%pass% >> %path%.txt
+cls
+goto loopbeforenum11
+
+:_genRand
+set /a x=%random% %% 62
+set use=%use%!string:~%x%,1!
+goto :eof
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:tutorial
+cls
+title YOPgettor Public v3.0 Made with ♥ by Samu#5111 // Tutorial
+ECHO %ESC%[34m                                                 d8P     d8P                   
+ECHO %ESC%[34m                                              d888888Pd888888P                 
+ECHO %ESC%[34m ?88   d8P  d8888b ?88,.d88b, d888b8b   d8888b  ?88'    ?88'   d8888b   88bd88b
+ECHO %ESC%[34m d88   88  d8P' ?88`?88'  ?88d8P' ?88  d8b_,dP  88P     88P   d8P' ?88  88P'  `
+ECHO %ESC%[34m ?8(  d88  88b  d88  88b  d8P88b  ,88b 88b      88b     88b   88b  d88 d88     
+ECHO %ESC%[34m `?88P'?8b `?8888P'  888888P'`?88P'`88b`?888P'  `?8b    `?8b  `?8888P'd88'     
+ECHO %ESC%[34m        )88          88P'           )88                                        
+ECHO %ESC%[34m       ,d8P         d88            ,88P                                        
+ECHO %ESC%[34m    `?888P'         ?8P        `?8888P                                                        
+ECHO %ESC%[31m Made with ♥ by Samu#5111
+ECHO %ESC%[31m ________________________________________________________________________________________
+ECHO %ESC%[36m Hello and Welcome to the Tutorial. We want to reach the best experience with YOPgettor
+ECHO %ESC%[36m so we made a full tutorial for noobs inside of this program. 
+ECHO %ESC%[36m What are you stuck with?
+ECHO %ESC%[36m [1] Im a full noob and I have no idea how this works
+ECHO %ESC%[36m [2] The Database Mode doesnt work (Database wont Load, wrong Outputs)
+ECHO %ESC%[36m [3] My Accounts are trash and I get nothing
+set /P problem=">
+
+if %problem% == 1 goto noob
+if %problem% == 2 goto dbmode
+if %problem% == 3 goto acctrash
+
+:error202
+cls
+goto tutorial
+
+:noob
+cls
+title YOPgettor Public v3.0 Made with ♥ by Samu#5111 // Tutorial
+ECHO %ESC%[34m                                                 d8P     d8P                   
+ECHO %ESC%[34m                                              d888888Pd888888P                 
+ECHO %ESC%[34m ?88   d8P  d8888b ?88,.d88b, d888b8b   d8888b  ?88'    ?88'   d8888b   88bd88b
+ECHO %ESC%[34m d88   88  d8P' ?88`?88'  ?88d8P' ?88  d8b_,dP  88P     88P   d8P' ?88  88P'  `
+ECHO %ESC%[34m ?8(  d88  88b  d88  88b  d8P88b  ,88b 88b      88b     88b   88b  d88 d88     
+ECHO %ESC%[34m `?88P'?8b `?8888P'  888888P'`?88P'`88b`?888P'  `?8b    `?8b  `?8888P'd88'     
+ECHO %ESC%[34m        )88          88P'           )88                                        
+ECHO %ESC%[34m       ,d8P         d88            ,88P                                        
+ECHO %ESC%[34m    `?888P'         ?8P        `?8888P                                                        
+ECHO %ESC%[31m Made with ♥ by Samu#5111
+ECHO %ESC%[31m ________________________________________________________________________________________
+ECHO %ESC%[36m HOW TO USE NORMAL MODE
+ECHO %ESC%[36m Well, so youre a full noob and you have no idea how YOPgettor works? Well, im here to 
+ECHO %ESC%[36m help you. First I reommend you to to use the Normal Mode. Press one in the Main Menu 
+ECHO %ESC%[36m For that:
+ECHO %ESC%[31m [1] Get YOPmails 
+ECHO %ESC%[36m After you clicked that choose as range 8, thats the best in my opinion, then select your
+ECHO %ESC%[36m Domain, for the start yopmail.com is definitely the best but if you want to you can also
+ECHO %ESC%[36m test out different domains. After that you can choose a password, this step doesnt really
+ECHO %ESC%[36m matter, its just a custom Password you can choose. After that choose your result file name.
+ECHO %ESC%[31m IMPORTANT: Dont use any spaces at the Results File Name
+ECHO %ESC%[36m Well, thats it. Now you can generate some Yopmails, as long and as much as you want.
+ECHO %ESC%[32m HOW TO USE DATABASE Mode
+ECHO %ESC%[32m The Database Mode is way stronger than the normal mode since you can actually get into any
+ECHO %ESC%[32m Yopmail you want. With Yopgettor a Default Database is coming, which is trash but we will 
+ECHO %ESC%[32m use it as example here. To reach the Database Mode press 3 at the Main Menu and choose if
+ECHO %ESC%[32m you want just numbers or numbers and letters behind or before your database word. You can 
+ECHO %ESC%[32m choose there which you want, in my example i used only number mode and the numbers behind
+ECHO %ESC%[32m the database word. Then you do the same as in the normal mode, choose a character range
+ECHO %ESC%[32m added to the database word, ill choose 7, choose the domain, ill choose yopmail.com
+ECHO %ESC%[32m and now enter the name of your database. Drag and drop your custom database or the default
+ECHO %ESC%[32m database in the same folder yopgettor is in, then type in the name of it without the .txt,
+ECHO %ESC%[32m e.g if the file called databasetrash001.txt you type in databasetrash001. Then you type in
+ECHO %ESC%[32m the anmount of lines in the database, shouldnt be a problem here, the default database has
+ECHO %ESC%[32m 2500. Then you can again choose a custom password and finally the result file name. This
+ECHO %ESC%[32m is how to use the database mode, its not very hard ig. 
+ECHO %ESC%[31m IMPORTANT: Dont use any spaces at the Database File Name
+ECHO %ESC%[33m HOW TO GET FORTNITE ACCOUNTS WITH Yopgettor
+ECHO %ESC%[33m So, if you have a ready database you need to check your combo for epic reg, that means you
+ECHO %ESC%[33m need a checker which checks for you if the accounts in your combo are registered on EpicGames.
+ECHO %ESC%[33m Mailify is a cracked Checker which you can use for that, it comes with the YOPgettor CrackPack
+ECHO %ESC%[33m so you should already have it in this folder. You need Proxies to check for EpicGames Reg. There
+ECHO %ESC%[33m are some trash raped proxies coming with YOPgettor Crackpack, but they wont work probably so you
+ECHO %ESC%[33m will need to buy proxies at me (Samu#5111 on Discord) or you need to get them with a different way.
+ECHO %ESC%[33m If you have your proxies now we will move on to the next step. We open Mailify. To get to the EpicGames
+ECHO %ESC%[33m Reg Checker First Press "2", then press "3". Select 150 threads, select your proxy type, load your
+ECHO %ESC%[33m Combo and finally load your proxies - and youre done. The Hits will drop in the Results Folder of
+ECHO %ESC%[33m Mailify (Results\Epicgames VM\Current Date and Time\Registered). Hope you now know how YOPgettor works.
+ECHO %ESC%[31m Press any Key to get back to the Main Menu
+pause >nul
+cls
+goto login 
+
+:dbmode
+cls
+title YOPgettor Public v3.0 Made with ♥ by Samu#5111 // Tutorial
+ECHO %ESC%[34m                                                 d8P     d8P                   
+ECHO %ESC%[34m                                              d888888Pd888888P                 
+ECHO %ESC%[34m ?88   d8P  d8888b ?88,.d88b, d888b8b   d8888b  ?88'    ?88'   d8888b   88bd88b
+ECHO %ESC%[34m d88   88  d8P' ?88`?88'  ?88d8P' ?88  d8b_,dP  88P     88P   d8P' ?88  88P'  `
+ECHO %ESC%[34m ?8(  d88  88b  d88  88b  d8P88b  ,88b 88b      88b     88b   88b  d88 d88     
+ECHO %ESC%[34m `?88P'?8b `?8888P'  888888P'`?88P'`88b`?888P'  `?8b    `?8b  `?8888P'd88'     
+ECHO %ESC%[34m        )88          88P'           )88                                        
+ECHO %ESC%[34m       ,d8P         d88            ,88P                                        
+ECHO %ESC%[34m    `?888P'         ?8P        `?8888P                                                        
+ECHO %ESC%[31m Made with ♥ by Samu#5111
+ECHO %ESC%[31m ________________________________________________________________________________________
+ECHO %ESC%[36m mY dAtAbAsE dOeSnT wOrK *crying fortnite kids*
+ECHO %ESC%[36m Well if your database doesnt work make sure you have no spaces in the database file name
+ECHO %ESC%[36m and you entered the correct amount of lines of your database. If you need more help read
+ECHO %ESC%[36m the tutorial for noobs, press any key to get there or close this program
+pause >nul
+cls
+goto noob
+
+:acctrash
+cls
+title YOPgettor Public v3.0 Made with ♥ by Samu#5111 // Tutorial
+ECHO %ESC%[34m                                                 d8P     d8P                   
+ECHO %ESC%[34m                                              d888888Pd888888P                 
+ECHO %ESC%[34m ?88   d8P  d8888b ?88,.d88b, d888b8b   d8888b  ?88'    ?88'   d8888b   88bd88b
+ECHO %ESC%[34m d88   88  d8P' ?88`?88'  ?88d8P' ?88  d8b_,dP  88P     88P   d8P' ?88  88P'  `
+ECHO %ESC%[34m ?8(  d88  88b  d88  88b  d8P88b  ,88b 88b      88b     88b   88b  d88 d88     
+ECHO %ESC%[34m `?88P'?8b `?8888P'  888888P'`?88P'`88b`?888P'  `?8b    `?8b  `?8888P'd88'     
+ECHO %ESC%[34m        )88          88P'           )88                                        
+ECHO %ESC%[34m       ,d8P         d88            ,88P                                        
+ECHO %ESC%[34m    `?888P'         ?8P        `?8888P                                                        
+ECHO %ESC%[31m Made with ♥ by Samu#5111
+ECHO %ESC%[31m ________________________________________________________________________________________
+ECHO %ESC%[36m HELP I ONLY GET TRASH DEFAULTS
+ECHO %ESC%[36m No worries, Samu is here to help. If you only get defaults your database is probably 
+ECHO %ESC%[36m the default one which is fully raped from all holes and corners it has after the first
+ECHO %ESC%[36m few hours of the new YOPgettor version release. You can either be smart and create an own
+ECHO %ESC%[36m Database or if youre too lazy or youre too stupid or youre just looking for the most HQ
+ECHO %ESC%[36m Shit buy one at me (add me on Discord Samu#5111)
+ECHO %ESC%[36m Press any Key to get back to the Main Menu
+pause >nul
+cls
+goto Login
