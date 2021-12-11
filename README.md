@@ -1,6 +1,6 @@
 # Yopgettor-Soruce
 Releasing that Source so you can update it if you want. Enjoy
-dsc.gg/astralcheats
+dsc.gg/samustock
 sellix.io/astralcheats
 
 Tags:
